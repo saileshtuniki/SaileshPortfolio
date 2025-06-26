@@ -26,9 +26,8 @@ export default function Contact() {
         </button>
       </form>
       <div className="flex gap-6 mt-6 text-xl justify-center">
-        <a href="https://github.com/sailesht" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
-        <a href="https://linkedin.com/in/sailesht" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
-        <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
+        <a href="https://github.com/saileshtuniki?tab=repositories" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
+        <a href="https://www.linkedin.com/in/sailesh-tuniki-52565a19a/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
       </div>
       <p className="text-center mt-8 text-sm">© Sailesh Tuniki, 2025</p>
     </section>
