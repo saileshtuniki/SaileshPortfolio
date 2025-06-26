@@ -14,9 +14,26 @@ export default function Hero() {
         Sailesh Tuniki – Backend Developer
       </motion.h1>
       <p className="text-xl mb-6">Building robust APIs & scalable backend systems</p>
-      <a href="#projects" className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
+      {/* <a href="#projects" className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
         View My Projects
-      </a>
+      </a> */}
+      <div className="flex space-x-4">
+        <a
+          href="#projects"
+          className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700"
+        >
+          View My Projects
+        </a>
+
+        {/* Download Resume Button */}
+        <a
+          href="/assets/resume/Sailesh_BE_Java_Resume_June_2025.pdf"      // <-- adjust path to your PDF
+          download="Sailesh_BE_Java_Resume_June_2025.pdf"  // <-- sets the downloaded filename
+          className="px-6 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700"
+        >
+         📄 Download Resume
+        </a>
+      </div>
     </section>
   );
 }
