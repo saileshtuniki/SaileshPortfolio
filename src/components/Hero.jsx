@@ -27,8 +27,8 @@ export default function Hero() {
 
         {/* Download Resume Button */}
         <a
-          href="/resume/Sailesh_BE_Java_Resume_June_2025.pdf"      // <-- adjust path to your PDF
-          download="Sailesh_BE_Java_Resume_June_2025.pdf"  // <-- sets the downloaded filename
+          href="/resume/Sailesh_BE_FE_july_2025_Resume.pdf"      // <-- adjust path to your PDF
+          download="Sailesh_BE_FE_july_2025_Resume.pdf"  // <-- sets the downloaded filename
           className="px-6 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700"
         >
          📄 Download Resume

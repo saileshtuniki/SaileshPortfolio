@@ -2,6 +2,11 @@ import React from "react";
 
 const certifications = [
     {
+    title: "Core Java Certification",
+    image: '/src/assets/certificates/Java_for_Programmers_certificate.jpg',
+    link: "https://www.udemy.com/certificate/UC-6cd894ec-a7a0-407c-b830-ea751690df48/",
+    },
+    {
     title: "AWS re/Start Graduate",
     image: '/badges/aws-re-start-graduate.png',
     link: "https://www.credly.com/badges/cbcb25f8-d3b9-4a78-9f49-1fe29bdd6a63/public_url",

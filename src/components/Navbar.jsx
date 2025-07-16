@@ -82,22 +82,22 @@ export default function Navbar() {
               {link.name}
             </a>
           ))}
-          <button
+          {/* <button
             onClick={() => setDarkMode(!darkMode)}
             className="text-sm px-3 py-1 rounded-md bg-gray-200 dark:bg-zinc-800 dark:text-white"
           >
             {darkMode ? "☀️ Light" : "🌙 Dark"}
-          </button>
+          </button> */}
         </nav>
 
         <div className="md:hidden flex items-center gap-3">
-          <button
+          {/* <button
             onClick={() => setDarkMode(!darkMode)}
             className="text-xl dark:text-white"
             title="Toggle Theme"
           >
             {darkMode ? "☀️" : "🌙"}
-          </button>
+          </button> */}
           <button onClick={() => setMenuOpen(!menuOpen)} className="text-2xl">
             {menuOpen ? <FaTimes /> : <FaBars />}
           </button>
